@@ -1,10 +1,11 @@
 import React from "react";
+import Parse from "html-react-parser";
 
 const About = ({ data }) => {
   if (data) {
     var name = data.name;
     var profilepic = "images/" + data.image;
-    var bio = data.bio;
+    var bio = Parse(data.bio);
     var street = data.address.street;
     var city = data.address.city;
     var state = data.address.state;
@@ -21,7 +22,7 @@ const About = ({ data }) => {
           <img
             className="profile-pic"
             src={profilepic}
-            alt="Sonny's Profile Pic"
+            alt="Swaroop's Profile Pic"
           />
         </div>
         <div className="nine columns main-col">

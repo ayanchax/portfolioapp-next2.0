@@ -1,8 +1,11 @@
 import React from "react";
+import "./Footer.css"
 
 const Footer = ({ data }) => {
   if (data) {
+    var developerFooterCreditHREF = data.social[data.social.length - 1]?.url;
     var networks = data.social.map(function (network) {
+
       return (
         <li key={network.name}>
           <a href={network.url}>
@@ -20,10 +23,10 @@ const Footer = ({ data }) => {
           <ul className="social-links">{networks}</ul>
 
           <ul className="copyright">
-            <li>
-              Made by{" "}
-              <a title="PAPA" href="http://www.papareact.com/">
-                PAPA
+            <li className="footer-copyright">
+              Made with <i className="fa fa-heart footer-heart" ></i> by {" "}
+              <a className="footer-credit" title="Ayan Chax" href={developerFooterCreditHREF ? developerFooterCreditHREF : "#"}>
+                Ayan Chax
               </a>
             </li>
           </ul>
