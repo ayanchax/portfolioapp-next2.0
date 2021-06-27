@@ -17,6 +17,7 @@ const Contact = ({ data }) => {
     var contactEmail = data.email;
     var contactMessage = data.contactmessage;
     var gps = data.address.gps_location;
+    var profilepic = "images/avatar/" + data.image;
   }
 
   const submitForm = () => {
@@ -118,7 +119,11 @@ const Contact = ({ data }) => {
             <br />
           </div>
         </div>
-
+        <img
+          className="profile-pic-footer"
+          src={profilepic}
+          alt="Swaroop's Profile Avatar"
+        />
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
             <ContactCard
@@ -137,8 +142,8 @@ const Contact = ({ data }) => {
           <iframe
             title="Location"
             src={gps}
-            width="400"
-            height="400"
+            width="300"
+            height="300"
             style={{ border: 0 }}
             allowfullscreen="false"
             loading="lazy"

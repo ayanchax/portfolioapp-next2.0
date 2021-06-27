@@ -6,6 +6,7 @@ const Footer = ({ data }) => {
   if (data) {
     var developerFooterCreditHREF = data.social[data.social.length - 3]?.url;
     // var website = data.website;
+
     var networks = data.social.map(function (network) {
 
       return (
@@ -32,12 +33,16 @@ const Footer = ({ data }) => {
               </a>
             </li>
           </ul>
+
         </div>
         <div id="go-top">
           <a className="smoothscroll" title="Back to Top" href="#home">
             <i className="icon-up-open"></i>
           </a>
+
+
         </div>
+
       </div>
     </footer>
   );
