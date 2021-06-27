@@ -7,7 +7,7 @@ const Resume = ({ data }) => {
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
-          <h3 className="resume-school-name" onClick={() => window.open(`${education.url}`)}>{education.school}</h3>
+          <h3 title={education.shortTitle} className="resume-school-name" onClick={() => window.open(`${education.url}`)}>{education.school}</h3>
           <p className="info">
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
