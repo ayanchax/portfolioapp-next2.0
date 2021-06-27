@@ -17,6 +17,7 @@ const Resume = ({ data }) => {
       );
     });
     var work = data.work.map(function (work) {
+
       return (
         <div key={work.company}>
           <div className="work-company">
@@ -32,10 +33,14 @@ const Resume = ({ data }) => {
               <span>&bull;</span> <em className="date">{work.years}</em>
             </p>
 
+            {work.otherHeldRoles != null && (<div><small style={{ fontSize: "1.4rem", textDecoration: "underline" }}><i className="fa fa-tags"></i>Previously Held Roles<br /> </small><strong style={{ fontSize: "1.2rem" }}>
+              {work.otherHeldRoles}.
+            </strong><br /></div>)}
           </div>
 
           <p>{work.description}</p>
-          {/* <cite><i className="fa fa-info"></i> To know more visit <a href={work.url}>{work.company.substring(0, 6)}</a></cite> */}
+
+          <hr />
         </div>
       );
     });

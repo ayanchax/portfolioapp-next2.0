@@ -1,6 +1,7 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
 import Parse from "html-react-parser";
+// import Typography from '@material-ui/core/Typography';
 import "./Header.css"
 
 
@@ -75,12 +76,18 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
+            {/* <Typography variant="h2">
+              {name ? `I'm ${name}.` : null}
+            </Typography> */}
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
           </h1>
           <h3>
             <i className="user"><i className="fa fa-user"></i> a.k.a</i>  <span className="user-second-line" >{nickName}</span> | <span className="user-occupation"><i className="fa fa-briefcase"></i> {occupation}</span> | <a className="user-gps" href={gps}><i className="fa fa-map-marker"></i> {city}</a>
           </h3>
           <h4 className="banner-text">
+            {/* <Typography>
+              {short_description ? short_description : null}
+            </Typography> */}
             <TypeWriter typing={0.5}>{short_description ? short_description : null}</TypeWriter>
           </h4>
           <hr />

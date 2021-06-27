@@ -4,7 +4,7 @@
         "occupation": "Full Stack Developer",
         "short_description": "I believe in <code class='code-font'>code for good and code for food policy</code>.",
         "image": "avatar1.jpeg",
-        "bio": "Hi there! I am Swaroop! You might also know me as Ayan Chax. I have been into freelancing consulting, coding and full stack development since more than 10 years now. I tend to build scalable mobile ready applications that are interesting for the world and which are essentially useful and helpful to a large section of the community. As a coder, I strongly believe in code for good and code for food policy. I'm a positive team player and an enthusiastic soul at tandem. I have the ability to lead and manage a team to do something brilliantly creative everyday.<br/><br/><a href='https://en.wikipedia.org/wiki/Silchar'>Silchar</a> is my hometown and I'm a Bengali(a.k.a Bong) by origin who likes it more when people call me by my pet name, <strong class='ownerName'>Ayan</strong>. I enjoy listening to music, reading books and have an unconditional love for cheese burst pizzas.<br/><br/><a class='globalMetaLink feluda' href='https://en.wikipedia.org/wiki/Feluda'>Feluda</a> by <a class='globalMetaLink satyajit' href = 'https://en.wikipedia.org/wiki/Satyajit_Ray'> Satyajit Ray</a> stands top in my all time favorite list when it comes to entertainment. I am a short story writer apart from a curious engineer at work, you may visit the blogs section to read few collection of my short stories.",
+        "bio": "Hi there! I am Swaroop! You might also know me as Ayan Chax. I have been into freelancing consulting, coding and full stack development since more than 10 years now. I tend to build scalable mobile ready applications that are interesting for the world and which are essentially useful and helpful to a large section of the community. As a coder, I strongly believe in code for good and code for food policy. I'm a positive team player and an enthusiastic soul at tandem. I have the ability to lead and manage a team to do something brilliantly creative everyday.<br/><br/><a href='https://en.wikipedia.org/wiki/Silchar'>Silchar</a> is my hometown and I'm a Bengali(a.k.a Bong) by origin who likes it more when people call me by my pet name, <strong class='ownerName'>Ayan</strong>. I enjoy listening to music, reading books and have an unconditional love for cheese burst pizzas.<br/><br/><a class='globalMetaLink feluda' href='https://en.wikipedia.org/wiki/Feluda'>Feluda</a> by <a class='globalMetaLink satyajit' href = 'https://en.wikipedia.org/wiki/Satyajit_Ray'> Satyajit Ray</a> stands top in my all time favorite list when it comes to entertainment. I am a short story writer apart from a curious engineer at work. You may visit the blogs section to read few collection of my short stories.",
         "contactmessage": "To know more, get in touch with me...",
         "email": "ayanchax9088@gmail.com",
         "phone": "+91 9831305667",
@@ -64,14 +64,56 @@
             "description": "Graduated with First Class Honours"
         }],
         "work": [{
-            "company": "Muddle | Freelance Software Consulting",
-            "shortName": "Muddle",
-            "title": "Founder and CEO",
-            "years": "Feb 2017 - Present",
-            "url": "https://www.facebook.com/muddleTK",
-            "logo": "/work/muddle-logo.png",
-            "description": "M for Muddle is a voluntarily funded start up which provides technical consulting to clients so that they can realize an innovative idea into a product or an app that is brand new in its segment and with endless possibilities."
-        }],
+                "company": "Muddle | Independent Software Consulting",
+                "shortName": "Muddle",
+                "title": "Founder and CEO",
+                "otherHeldRoles": null,
+                "years": "Feb 2017 - Present",
+                "url": "https://www.facebook.com/muddleTK",
+                "logo": "/work/muddle-logo.png",
+                "description": "M for Muddle is a voluntarily funded start up which provides technical consulting to clients so that they can realize an innovative idea into a product or an app that is brand new in its segment and with endless possibilities."
+            },
+            {
+                "company": "Cerner Corporation",
+                "shortName": "Cerner",
+                "title": "Software Engineer II",
+                "otherHeldRoles": "System Engineer | Technical Support Engineer | Sr. Technical Support Engineer | Test Analyst | Test Automation Engineer I | Software Engineer I",
+                "years": "Feb 2015 - Present",
+                "url": "https://www.cerner.com/",
+                "logo": "/work/cerner.png",
+                "description": "Working in healthcare automation industry for a PLM based financial application software known as Soarian Financials. Primary responsibilities include writing reusable, meaningful and readable source code for developing new features. Design & Develop new product features  prior to every new release to clients. Understand the requirements from the solution designer before proceeding with the feature."
+            },
+            {
+                "company": "Siemens AG",
+                "shortName": "Siemens",
+                "title": "System Engineer",
+                "otherHeldRoles": null,
+                "years": "Sep 2014 - Feb 2015",
+                "url": "https://www.siemens.com/global/en.html",
+                "logo": "/work/siemens.jpg",
+                "description": "Handled and effectively debugged and provided support to various client side issues in a US Healthcare Automated Project."
+            },
+            {
+                "company": "Zantrik Technologies",
+                "shortName": "Zantrik",
+                "title": "Jr Solutions Architect",
+                "otherHeldRoles": "Software Developer",
+                "years": "May 2013 - Sep 2014",
+                "url": "https://www.zantrik.in/",
+                "logo": "/work/zantriklogo.png",
+                "description": "Worked as a Junior Solutions Architect in devising Enterprise Applications and for developing various automated software projects for Government Universities and Schools."
+            },
+            {
+                "company": "AMTRON",
+                "shortName": "Amtron",
+                "title": "Summer Intern",
+                "otherHeldRoles": null,
+                "years": "Jan 2013 - Apr 2013",
+                "url": "http://amtron.in/",
+                "logo": "/work/amtron.jpg",
+                "description": "Worked as a software project intern while pursuing final semester of Master's Degree. During the internship, built a intra-network social networking application meant to be used by the employees of the organisation."
+            }
+        ],
         "technologyStack": [{
                 "name": "Front-End",
                 "url": "/technology/frontend/frontend.png"

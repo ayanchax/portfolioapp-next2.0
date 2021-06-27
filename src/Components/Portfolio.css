@@ -5,3 +5,7 @@
     background-color: #373233!important;
     text-align: center;
 }
+
+.portfolio-footer a:hover {
+    color: white;
+}
