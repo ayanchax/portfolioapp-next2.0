@@ -58,11 +58,22 @@
     "resume": {
         "skillmessage": "Check out my skill sets",
         "education": [{
-            "school": "Gauhati University - INDIA",
-            "degree": "Master of Computer Applications",
-            "graduated": "April 2013",
-            "description": "Graduated with First Class Honours"
-        }],
+                "school": "Gauhati University - INDIA",
+                "degree": "Master of Computer Applications(MCA)",
+                "graduated": "April 2013",
+                "description": "Graduated with First Class Honours",
+                "url": "https://www.gauhati.ac.in/",
+                "shortTitle": "Visit GU"
+            },
+            {
+                "school": "Assam University - INDIA",
+                "degree": "Bachelor of Science(B.Sc Math)",
+                "graduated": "January 2010",
+                "description": "Graduated with Second Class Honours in Math",
+                "url": "http://www.aus.ac.in/",
+                "shortTitle": "Visit AU"
+            }
+        ],
         "work": [{
                 "company": "Muddle | Independent Software Consulting",
                 "shortName": "Muddle",
@@ -71,7 +82,7 @@
                 "years": "Feb 2017 - Present",
                 "url": "https://www.facebook.com/muddleTK",
                 "logo": "/work/muddle-logo.png",
-                "description": "M for Muddle is a voluntarily funded start up which provides technical consulting to clients so that they can realize an innovative idea into a product or an app that is brand new in its segment and with endless possibilities."
+                "description": "M for Muddle is a voluntarily funded start up which provides technical consulting to clients so that they can realize an innovative idea into a product or an app that is brand new in its segment and with endless possibilities. Muddle also provides online training on trending technlogies to students and professionals for free. Final Semester students pursuing bachelor's or master degree in computer domain may contact Muddle to get their project and related project documentation done in a reasonable price bracket."
             },
             {
                 "company": "Cerner Corporation",

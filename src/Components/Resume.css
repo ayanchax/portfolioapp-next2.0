@@ -45,3 +45,8 @@
     text-align: center;
     color: black;
 }
+
+.resume-school-name {
+    cursor: pointer;
+    color: blue;
+}
