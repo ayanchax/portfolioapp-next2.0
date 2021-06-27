@@ -3,6 +3,7 @@ import "./Resume.css"
 const Resume = ({ data }) => {
   if (data) {
     var skillmessage = data.skillmessage;
+
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -47,6 +48,18 @@ const Resume = ({ data }) => {
         </li>
       );
     });
+
+    var techStack = data.technologyStack.map(function (tech) {
+      return (
+        <div key={tech.name} className="tech-container">
+          <img className="tech-image" alt={tech.name} src={`images${tech.url}`} />
+          <div className="tech-title">{tech.name}</div>
+        </div>
+
+
+      )
+
+    });
   }
 
   return (
@@ -83,12 +96,15 @@ const Resume = ({ data }) => {
         </div>
 
         <div className="nine columns main-col">
-          <p>{skillmessage}</p>
-          <img alt="" src="/images/technology/techstack.png" />
+          {/* <p>{skillmessage}</p> */}
+          {techStack}
           {/* <div className="bars">
             <ul className="skills">{skills}</ul>
           </div> */}
+
         </div>
+
+
 
 
       </div>

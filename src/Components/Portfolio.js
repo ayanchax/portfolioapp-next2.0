@@ -1,9 +1,10 @@
 import React from "react";
-
+import "./Portfolio.css"
 const Portfolio = ({ data }) => {
   if (data) {
+    var github = data.github;
     var projects = data.projects.map(function (projects) {
-      var projectImage = "images/portfolio/" + projects.image;
+      var projectImage = "images/portfolio/thumbnail/" + projects.image;
       return (
         <div key={projects.title} className="columns portfolio-item">
           <div className="item-wrap">
@@ -29,7 +30,7 @@ const Portfolio = ({ data }) => {
     <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
+          <h1>Check out some of my recent works.</h1>
 
           <div
             id="portfolio-wrapper"
@@ -37,6 +38,7 @@ const Portfolio = ({ data }) => {
           >
             {projects}
           </div>
+          <p className="portfolio-footer"><i className="fa fa-github"></i> To know more about my work and projects, follow me on  <a href={github}>Github</a></p>
 
         </div>
       </div>
