@@ -6,6 +6,7 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Testimonials from "./Components/Testimonials";
+import Blogs from "./Components/Blogs";
 import Portfolio from "./Components/Portfolio";
 
 import "./App.css";
@@ -28,6 +29,7 @@ const App = () => {
       <Resume data={resumeData.resume} />
       <Portfolio data={resumeData.portfolio} />
       <Testimonials data={resumeData.testimonials} />
+      <Blogs data={resumeData.blogger} />
       <Contact data={resumeData.main} />
       <Footer data={resumeData.main} />
     </div>

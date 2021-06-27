@@ -798,7 +798,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+    background: #1F1F1F url(../images/testimonial/bg-testimonial-1.jpg) no-repeat center center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
     background-attachment: fixed;
@@ -877,6 +877,20 @@ call-to-action .button {
 #testimonials blockquote cite a:visited {
     color: #8B9798;
     border: none
+}
+
+
+/*****h. Blogs*********************************/
+
+#blogs {
+    background: #161415 url(../images/blog/blog-background-v4.jpg) no-repeat top center;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 200px;
+    width: 100%;
+    overflow: hidden;
 }
 
 

@@ -1,13 +1,15 @@
 import React from "react";
+import "./Testimonials.css"
 
 const Testimonials = ({ data }) => {
   if (data) {
     var testimonials = data.testimonials.map(function (testimonials) {
       return (
-        <li key={testimonials.user}>
+        <li key={testimonials.id}>
           <blockquote>
-            <p>{testimonials.text}</p>
+            <p className="testimonial-text">{testimonials.text}</p>
             <cite>{testimonials.user}</cite>
+            <hr className="testimonial-divider" />
           </blockquote>
         </li>
       );
@@ -20,7 +22,7 @@ const Testimonials = ({ data }) => {
         <div className="row">
           <div className="two columns header-col">
             <h1>
-              <span>Client Testimonials</span>
+              <span>Client &amp; Peer Testimonials</span>
             </h1>
           </div>
 

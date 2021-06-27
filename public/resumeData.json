@@ -2,10 +2,10 @@
     "main": {
         "name": "Swaroop Chakraborty",
         "occupation": "Full Stack Developer",
-        "short_description": "I believe in <code>code for good and code for food policy</code>.",
-        "image": "portfoliopicture.jpg",
-        "bio": "Hi there! I am Swaroop! You might also know me as Ayan Chax. Currently, I am based in Calcutta. I have been into coding and full stack development since more than 10 years now. I tend to build scalable systems that are interesting for the world and which are essentially useful and helpful to a large section of the community. As a coder, I strongly believe in code for good and code for food policy. I'm a positive team player and an enthusiastic soul at tandem.I have the ability to lead and manage a team to do something brilliantly creative everyday.<br/><br/><a href='https://en.wikipedia.org/wiki/Silchar'>Silchar</a> is my hometown and I'm a Bengali(a.k.a Bong) by origin who likes it more when people call me by my pet name, <strong class='ownerName'>Ayan</strong>. I enjoy listening to music, reading books and have an unconditional love for cheese burst pizzas.<br/><br/><a href='https://en.wikipedia.org/wiki/Feluda'>Feluda</a> by <a href = 'https://en.wikipedia.org/wiki/Satyajit_Ray'> Satyajit Ray</a> stands top in my all time favorite list when it comes to entertainment. I am a short story writer apart from a curious engineer at work, you may visit the blogs section to read few of my short stories.",
-        "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
+        "short_description": "I believe in <code class='code-font'>code for good and code for food policy</code>.",
+        "image": "avatar1.jpeg",
+        "bio": "Hi there! I am Swaroop! You might also know me as Ayan Chax. I have been into freelancing consulting, coding and full stack development since more than 10 years now. I tend to build scalable mobile ready applications that are interesting for the world and which are essentially useful and helpful to a large section of the community. As a coder, I strongly believe in code for good and code for food policy. I'm a positive team player and an enthusiastic soul at tandem. I have the ability to lead and manage a team to do something brilliantly creative everyday.<br/><br/><a href='https://en.wikipedia.org/wiki/Silchar'>Silchar</a> is my hometown and I'm a Bengali(a.k.a Bong) by origin who likes it more when people call me by my pet name, <strong class='ownerName'>Ayan</strong>. I enjoy listening to music, reading books and have an unconditional love for cheese burst pizzas.<br/><br/><a class='globalMetaLink feluda' href='https://en.wikipedia.org/wiki/Feluda'>Feluda</a> by <a class='globalMetaLink satyajit' href = 'https://en.wikipedia.org/wiki/Satyajit_Ray'> Satyajit Ray</a> stands top in my all time favorite list when it comes to entertainment. I am a short story writer apart from a curious engineer at work, you may visit the blogs section to read few collection of my short stories.",
+        "contactmessage": "To know more, get in touch with me...",
         "email": "ayanchax9088@gmail.com",
         "phone": "+91 9831305667",
         "initials": "SC",
@@ -18,10 +18,12 @@
             "street": "101 C1 New Park, Block B-C",
             "city": "Calcutta",
             "state": "West Bengal",
-            "zip": "700078"
+            "zip": "700078",
+            "gps": "https://goo.gl/maps/xFgYM4ASX6Fxhsrx9",
+            "gps_location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.850518469311!2d88.38775501534819!3d22.509790940944985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02714e7e99ba2d%3A0x91e936331852be45!2sP%20Majumder%20Rd%2C%20Haltu%2C%20Kolkata%2C%20West%20Bengal%20700078!5e0!3m2!1sen!2sin!4v1624745919040!5m2!1sen!2sin"
         },
-        "website": "https://www.papareact.com/course",
-        "resumedownload": "http://papareact.com",
+        "website": "https://github.com/ayanchax?tab=repositories",
+        "resumedownload": "blob/pdf/cv/2021/SWAROOP CHAKRABORTY-EN-2021.pdf",
         "social": [{
                 "name": "blogger",
                 "url": "https://www.blogger.com/profile/04388851755120028497",
@@ -56,16 +58,19 @@
     "resume": {
         "skillmessage": "My Programming Language Proficiency",
         "education": [{
-            "school": "University of Kent - UK",
-            "degree": "Bachelor's Degree, Computer Science",
-            "graduated": "July 2016",
+            "school": "Gauhati University - INDIA",
+            "degree": "Master of Computer Applications",
+            "graduated": "April 2013",
             "description": "Graduated with First Class Honours"
         }],
         "work": [{
-            "company": "PAPA",
+            "company": "Muddle | Freelance Software Consulting",
+            "shortName": "Muddle",
             "title": "Founder and CEO",
-            "years": "May 2019 - Present",
-            "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+            "years": "Feb 2017 - Present",
+            "url": "https://www.facebook.com/muddleTK",
+            "logo": "/work/muddle-logo.png",
+            "description": "M for Muddle is a voluntarily funded start up which provides technical consulting to clients so that they can realize an innovative idea into a product or an app that is brand new in its segment and with endless possibilities."
         }],
         "skills": [{
                 "name": "ReactJs",
@@ -112,13 +117,53 @@
     },
     "testimonials": {
         "testimonials": [{
-                "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-                "user": "Jorge Fouto"
+                "id": 1,
+                "text": "Swaroop is a creative, intelligent and 'never say never' person. I worked with him in couple of projects and found him the most dependable engineer. He knows all the tricks and tips of Network, delivers high quality solutions faster than the expectation . I would love to work with him again in future.",
+                "user": "Swakhar Mukherjee"
             },
             {
-                "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
-                "user": "Adam Curtis"
+                "id": 2,
+                "text": "Swaroop is one of the top talents in the industry. He has a very strong can-do attitude. A brilliant problem solver and a technical mastermind. Swaroop is the goto guy!!",
+                "user": "Aminul Khan"
+            },
+            {
+                "id": 3,
+                "text": "In my career as developer I have worked with some amazing people, Swaroop is one of them. He has all the good qualities of a great developer and a team player. He is a quick learner, reliable in a fire fighting situation. Have exceptional problem solving skills, an analytical mind and a go getter attitude. A great architect in the making. He would be an asset in any team he works with.",
+                "user": "Saurav Kundu"
             }
         ]
+    },
+    "blogger": {
+        "blogs": [{
+                "id": 1,
+                "name": "A year of March",
+                "meta": "…incessant buzz from neighbouring cubicles accompanied with intermittent incoming emails and meeting reminder notifications",
+                "url": "https://ayanchax88.blogspot.com/2021/03/a-year-of-march.html",
+                "published": "Tuesday, 16 March 2021"
+            },
+            {
+                "id": 2,
+                "name": "The Cycle of Time",
+                "meta": "It is January 1971. The location is somewhere around the hilly terrains of a north-eastern village in India. The house had seen a recent marriage ceremony",
+                "url": "https://ayanchax88.blogspot.com/2020/10/the-cycle-of-time.html",
+                "published": "Monday, 19 October 2020"
+            },
+            {
+                "id": 3,
+                "name": "The Entrepreneur",
+                "meta": "Back to 2012,  I was so highly impressed and inspired by the way Facebook worked, that I entirely made a final year project",
+                "url": "https://ayanchax88.blogspot.com/2020/05/back-to-2012-i-was-so-highly-impressed.html",
+                "published": "Thursday, 7 May 2020"
+            },
+            {
+                "id": 4,
+                "name": "Happiness is the Business Model",
+                "meta": "It was a merciless north eastern Guwahati summer, somewhere around June, when I seldom went to university as this was my last year of graduation",
+                "url": "https://ayanchax88.blogspot.com/2020/06/happiness-is-business-model.html",
+                "published": "Saturday, 6 June 2020"
+            }
+        ],
+        "mainURL": "https://www.blogger.com/profile/04388851755120028497",
+        "className": "fa fa-rss"
     }
 }

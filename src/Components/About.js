@@ -1,10 +1,12 @@
 import React from "react";
 import Parse from "html-react-parser";
+import ContactCard from "./ContactCard";
+import "./About.css"
 
 const About = ({ data }) => {
   if (data) {
     var name = data.name;
-    var profilepic = "images/" + data.image;
+    var profilepic = "images/avatar/" + data.image;
     var bio = Parse(data.bio);
     var street = data.address.street;
     var city = data.address.city;
@@ -19,10 +21,11 @@ const About = ({ data }) => {
     <section id="about">
       <div className="row">
         <div className="three columns">
+
           <img
             className="profile-pic"
             src={profilepic}
-            alt="Swaroop's Profile Pic"
+            alt="Swaroop's Profile Avatar"
           />
         </div>
         <div className="nine columns main-col">
@@ -31,24 +34,12 @@ const About = ({ data }) => {
           <p>{bio}</p>
           <div className="row">
             <div className="columns contact-details">
-              <h2>Contact Details</h2>
-              <p className="address">
-                <span>{name}</span>
-                <br />
-                <span>
-                  {street}
-                  <br />
-                  {city} {state}, {zip}
-                </span>
-                <br />
-                <span>{phone}</span>
-                <br />
-                <span>{email}</span>
-              </p>
+              <ContactCard headerClass="" contactText="Contact Details" contactName={name} street={street} city={city} state={state} zip={zip} phone={phone}
+                contactEmail={email} />
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
+                <a title="Download" rel="noreferrer" target="_blank" href={resumeDownload} className="button">
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>

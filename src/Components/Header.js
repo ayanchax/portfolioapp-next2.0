@@ -1,6 +1,7 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
 import Parse from "html-react-parser";
+import "./Header.css"
 
 
 const Header = ({ data }) => {
@@ -10,6 +11,7 @@ const Header = ({ data }) => {
     var short_description = Parse(data.short_description);
     var city = data.address.city;
     var nickName = data.preferredName;
+    var gps = data.address.gps;
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
@@ -58,6 +60,11 @@ const Header = ({ data }) => {
             </a>
           </li>
           <li>
+            <a className="smoothscroll" href="#blogs">
+              Blogs
+            </a>
+          </li>
+          <li>
             <a className="smoothscroll" href="#contact">
               Contact
             </a>
@@ -71,9 +78,9 @@ const Header = ({ data }) => {
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
           </h1>
           <h3>
-            <i style={{ color: "#EBEEEE" }}><i className="fa fa-user"></i> a.k.a</i>  <span style={{ color: "#F7AB0A" }}>{nickName}</span> | <span style={{ fontSize: "2.2rem" }}><i className="fa fa-briefcase"></i> {occupation}</span> | <span style={{ color: "#EBEEEE" }}><i className="fa fa-map-marker"></i> {city}</span>
+            <i className="user"><i className="fa fa-user"></i> a.k.a</i>  <span className="user-second-line" >{nickName}</span> | <span className="user-occupation"><i className="fa fa-briefcase"></i> {occupation}</span> | <a className="user-gps" href={gps}><i className="fa fa-map-marker"></i> {city}</a>
           </h3>
-          <h4 style={{ color: "#FFF5D8", fontWeight: "100" }}>
+          <h4 className="banner-text">
             <TypeWriter typing={0.5}>{short_description ? short_description : null}</TypeWriter>
           </h4>
           <hr />

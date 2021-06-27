@@ -1,0 +1,9 @@
+.contact-details-header {
+    color: white !important;
+}
+
+.contact-location {
+    object-fit: contain;
+    zoom: 1.9;
+    display: flex;
+}

@@ -1,9 +1,11 @@
 import React from "react";
 import "./Footer.css"
 
+
 const Footer = ({ data }) => {
   if (data) {
     var developerFooterCreditHREF = data.social[data.social.length - 1]?.url;
+    var website = data.website;
     var networks = data.social.map(function (network) {
 
       return (

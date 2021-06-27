@@ -37,6 +37,7 @@ const Portfolio = ({ data }) => {
           >
             {projects}
           </div>
+
         </div>
       </div>
     </section>

@@ -1,0 +1,14 @@
+.work-company {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.company-logo {
+    object-fit: contain;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}

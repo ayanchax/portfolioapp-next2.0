@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Resume.css"
 const Resume = ({ data }) => {
   if (data) {
     var skillmessage = data.skillmessage;
@@ -18,12 +18,23 @@ const Resume = ({ data }) => {
     var work = data.work.map(function (work) {
       return (
         <div key={work.company}>
-          <h3>{work.company}</h3>
-          <p className="info">
-            {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
-          </p>
+          <div className="work-company">
+
+            <h3>
+
+              {work.company}
+            </h3>
+            <img title={`Visit ${work.shortName}`} onClick={() => window.open(`${work.url}`)} className="company-logo" alt="Company Logo" src={`images${work.logo}`} />
+
+            <p className="info">
+              {work.title}
+              <span>&bull;</span> <em className="date">{work.years}</em>
+            </p>
+
+          </div>
+
           <p>{work.description}</p>
+          {/* <cite><i className="fa fa-info"></i> To know more visit <a href={work.url}>{work.company.substring(0, 6)}</a></cite> */}
         </div>
       );
     });
@@ -73,11 +84,13 @@ const Resume = ({ data }) => {
 
         <div className="nine columns main-col">
           <p>{skillmessage}</p>
-
-          <div className="bars">
+          <img alt="" src="/images/technology/techstack.png" />
+          {/* <div className="bars">
             <ul className="skills">{skills}</ul>
-          </div>
+          </div> */}
         </div>
+
+
       </div>
     </section>
   );

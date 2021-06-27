@@ -1,0 +1,25 @@
+.user {
+    color: #EBEEEE!important;
+}
+
+.user-second-line {
+    color: #F7AB0A!important;
+}
+
+.user-occupation {
+    font-size: 2.2rem!important;
+}
+
+.user-gps {
+    color: #EBEEEE!important;
+}
+
+.banner-text {
+    color: #FFF5D8!important;
+    font-weight: 100!important;
+}
+
+.code-font {
+    font-family: 'Courier New', Courier, monospace!important;
+    font-weight: 750!important;
+}

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import "./Contact.css";
+import ContactCard from "./ContactCard";
 const Contact = ({ data }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -15,6 +16,7 @@ const Contact = ({ data }) => {
     var phone = data.phone;
     var contactEmail = data.email;
     var contactMessage = data.contactmessage;
+    var gps = data.address.gps_location;
   }
 
   const submitForm = () => {
@@ -119,23 +121,31 @@ const Contact = ({ data }) => {
 
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
-            <p className="address">
-              {contactName}
-              <br />
-              {contactEmail}
-              <br />
-              <br />
-              {street} <br />
-              {city}, {state} {zip}
-              <br />
-              <span>{phone}</span>
-            </p>
+            <ContactCard
+              headerClass="contact-details-header"
+              contactText="Contact Details"
+              contactName={contactName}
+              street={street}
+              city={city}
+              state={state}
+              zip={zip}
+              phone={phone}
+              contactEmail={contactEmail}
+            />
           </div>
+
+          <iframe
+            title="Location"
+            src={gps}
+            width="400"
+            height="400"
+            style={{ border: 0 }}
+            allowfullscreen="false"
+            loading="lazy"
+          ></iframe>
         </aside>
       </div>
     </section>
   );
 };
-
 export default Contact;
