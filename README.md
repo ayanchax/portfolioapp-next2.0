@@ -1,6 +1,6 @@
 # Portfolio App
 
-### <a href="https://scport-63746c.netlify.app/">LIVE DEMO</a>
+### <a href="https://swaroopchakraborty-9088c.netlify.app/">LIVE DEMO</a>
 
 ## Portfolio App Description
 
