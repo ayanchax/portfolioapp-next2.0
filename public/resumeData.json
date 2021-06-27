@@ -127,15 +127,15 @@
         ],
         "technologyStack": [{
                 "name": "Front-End",
-                "url": "/technology/frontend/frontend.png"
+                "url": "/technology/frontend/FrontEnd.jpg"
             },
             {
                 "name": "Back-End",
-                "url": "/technology/backend/backend.png"
+                "url": "/technology/backend/BackEnd.png"
             },
             {
                 "name": "Configuration",
-                "url": "/technology/infrastructure/infrastructure.png"
+                "url": "/technology/infrastructure/Infrastructure.png"
             }
         ],
         "skills": [{

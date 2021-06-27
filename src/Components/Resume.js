@@ -1,5 +1,6 @@
 import React from "react";
-import "./Resume.css"
+import "./Resume.css";
+
 const Resume = ({ data }) => {
   if (data) {
     //var skillmessage = data.skillmessage;
@@ -7,7 +8,13 @@ const Resume = ({ data }) => {
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
-          <h3 title={education.shortTitle} className="resume-school-name" onClick={() => window.open(`${education.url}`)}>{education.school}</h3>
+          <h3
+            title={education.shortTitle}
+            className="resume-school-name"
+            onClick={() => window.open(`${education.url}`)}
+          >
+            {education.school}
+          </h3>
           <p className="info">
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
@@ -17,25 +24,37 @@ const Resume = ({ data }) => {
       );
     });
     var work = data.work.map(function (work) {
-
       return (
         <div key={work.company}>
           <div className="work-company">
-
-            <h3>
-
-              {work.company}
-            </h3>
-            <img title={`Visit ${work.shortName}`} onClick={() => window.open(`${work.url}`)} className="company-logo" alt="Company Logo" src={`images${work.logo}`} />
+            <h3>{work.company}</h3>
+            <img
+              title={`Visit ${work.shortName}`}
+              onClick={() => window.open(`${work.url}`)}
+              className="company-logo"
+              alt="Company Logo"
+              src={`images${work.logo}`}
+            />
 
             <p className="info">
               {work.title}
               <span>&bull;</span> <em className="date">{work.years}</em>
             </p>
 
-            {work.otherHeldRoles != null && (<div><small style={{ fontSize: "1.4rem", textDecoration: "underline" }}><i className="fa fa-tags"></i>Previously Held Roles<br /> </small><strong style={{ fontSize: "1.2rem" }}>
-              {work.otherHeldRoles}.
-            </strong><br /></div>)}
+            {work.otherHeldRoles != null && (
+              <div>
+                <small
+                  style={{ fontSize: "1.4rem", textDecoration: "underline" }}
+                >
+                  <i className="fa fa-tags"></i>Previously Held Roles
+                  <br />{" "}
+                </small>
+                <strong style={{ fontSize: "1.2rem" }}>
+                  {work.otherHeldRoles}.
+                </strong>
+                <br />
+              </div>
+            )}
           </div>
 
           <p>{work.description}</p>
@@ -44,27 +63,21 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    // var skills = data.skills.map(function (skills) {
-    //   var className = "bar-expand " + skills.name.toLowerCase();
-    //   return (
-    //     <li key={skills.name}>
-    //       <span style={{ width: skills.level }} className={className}></span>
-    //       <em>{skills.name}</em>
-    //     </li>
-    //   );
-    // });
+
 
     var techStack = data.technologyStack.map(function (tech) {
       return (
         <div key={tech.name} className="tech-container">
-          <img className="tech-image" alt={tech.name} src={`images${tech.url}`} />
-          <div className="tech-title">{tech.name}</div>
+          <img
+            className="tech-image"
+            alt={tech.name}
+            src={`images${tech.url}`}
+          />
+          {/* <div className="tech-title">{tech.name}</div> */}
         </div>
-
-
-      )
-
+      );
     });
+
   }
 
   return (
@@ -100,19 +113,19 @@ const Resume = ({ data }) => {
           </h1>
         </div>
 
-        <div className="nine columns main-col">
+        <div className="tech-stack" >
           {/* <p>{skillmessage}</p> */}
           {techStack}
           {/* <div className="bars">
             <ul className="skills">{skills}</ul>
           </div> */}
-
         </div>
 
 
-
-
       </div>
+
+
+
     </section>
   );
 };
