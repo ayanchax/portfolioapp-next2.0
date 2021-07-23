@@ -10,6 +10,7 @@ import Blogs from "./Components/Blogs";
 import Portfolio from "./Components/Portfolio";
 
 import "./App.css";
+import HelmetMetaData from "./HelmetMetaData";
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
@@ -24,6 +25,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <HelmetMetaData />
       <Header data={resumeData.main} />
       <About data={resumeData.main} />
       <Resume data={resumeData.resume} />
