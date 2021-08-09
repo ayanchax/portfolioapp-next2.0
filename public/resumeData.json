@@ -163,7 +163,15 @@
     "portfolio": {
         "github": "https://github.com/ayanchax?tab=repositories",
         "linkedIn": "https://www.linkedin.com/in/swaroop-chakraborty-917b5165/",
-        "projects": [{
+        "projects": [
+
+            {
+                "title": "#सुनलो -Free Music App",
+                "category": "",
+                "image": "sunlo.png",
+                "url": "https://musify-plus.vercel.app/"
+            },
+            {
                 "title": "Google Clone",
                 "category": "",
                 "image": "google-clone.PNG",
@@ -173,7 +181,7 @@
                 "title": "Netflix Trailerz",
                 "category": "",
                 "image": "netflix-clone.PNG",
-                "url": "https://netflix-clone-react-app.web.app/"
+                "url": "https://netflix-2-e8113.web.app/"
             },
             {
                 "title": "Spotify Clone",
