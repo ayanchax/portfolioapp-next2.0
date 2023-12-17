@@ -15,15 +15,15 @@
         "nationality": "Indian",
         "maritalStatus": "Single",
         "address": {
-            "street": "101 C1 New Park, Block B-C",
-            "city": "Calcutta",
-            "state": "West Bengal",
-            "zip": "700078",
-            "gps": "https://goo.gl/maps/xFgYM4ASX6Fxhsrx9",
-            "gps_location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.850518469311!2d88.38775501534819!3d22.509790940944985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02714e7e99ba2d%3A0x91e936331852be45!2sP%20Majumder%20Rd%2C%20Haltu%2C%20Kolkata%2C%20West%20Bengal%20700078!5e0!3m2!1sen!2sin!4v1624745919040!5m2!1sen!2sin"
+            "street": "RIFCo Shanthinikethan Layout, 5th Cross, 2nd Main A, KR Puram",
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "zip": "560049",
+            "gps": "https://maps.app.goo.gl/WuFkTYJK5qxqyvHP8",
+            "gps_location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.173343497777!2d77.7087480282941!3d13.02463090453823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae104e44d864d9%3A0x9a8748fd9aab1c69!2sRifco%20Shantiniketan%20Layout%2C%20Padmeshwari%20Nagar%2C%20Battarahalli%2C%20Bengaluru%2C%20Karnataka%20560049!5e0!3m2!1sen!2sin!4v1702825252888!5m2!1sen!2sin"
         },
         "website": "https://github.com/ayanchax?tab=repositories",
-        "resumedownload": "blob/pdf/cv/2021/SWAROOP CHAKRABORTY-EN-2021.pdf",
+        "resumedownload": "blob/pdf/cv/2023/SWAROOP CHAKRABORTY-EN-2023.pdf",
         "social": [{
                 "name": "blogger",
                 "url": "https://www.blogger.com/profile/04388851755120028497",
@@ -85,11 +85,21 @@
                 "description": "M for Muddle is a voluntarily funded start up which provides technical consulting to clients so that they can realize an innovative idea into a product or an app that is brand new in its segment and with endless possibilities. Muddle also provides online training on trending technlogies to students and professionals for free. Final Semester students pursuing bachelor or master degree in computer domain may contact Muddle to get their project and related project documentation done in a reasonable price bracket."
             },
             {
+                "company": "Tata Consultancy Services",
+                "shortName": "TCS",
+                "title": "Assistant Consultant",
+                "otherHeldRoles": null,
+                "years": "Sep 2021 - Present",
+                "url": "https://www.tcs.com/",
+                "logo": "/work/tcs.svg",
+                "description": "As a Consultant at TCS, I play a pivotal role in overseeing the end-to-end project development lifecycle while leading a dynamic team of 20 professionals. Specializing in a Data Annotation Product Platform, I lead my team through the intricate landscape of niche technologies, including various AI and ML tools (Sagemaker, Xtreme1), Angular Python, Node.js, and AWS.\n\n My responsibilities extend beyond mere supervision, delving into architecture design for both front-end and back-end components.\n\n Within the realm of project management, my role encompasses orchestrating stand-up calls, diligently collecting updates from team members, and ensuring seamless communication channels. This multi-faceted engagement ensures that our projects adhere to strict delivery timelines. The scope of my duties further extends into various levels of testing, where I contribute to the quality assurance process to guarantee the reliability and functionality of our solutions."
+            },
+            {
                 "company": "Cerner Corporation",
                 "shortName": "Cerner",
                 "title": "Software Engineer II",
                 "otherHeldRoles": "System Engineer | Technical Support Engineer | Sr. Technical Support Engineer | Test Analyst | Test Automation Engineer I | Software Engineer I",
-                "years": "Feb 2015 - Present",
+                "years": "Feb 2015 - Aug 2021",
                 "url": "https://www.cerner.com/",
                 "logo": "/work/cerner.png",
                 "description": "Working in healthcare automation industry for a PLM based financial application software known as Soarian Financials. Primary responsibilities include writing reusable, meaningful and readable source code for developing new features. Design & Develop new product features  prior to every new release to clients. Understand the requirements from the solution designer before proceeding with the feature."
@@ -181,7 +191,7 @@
                 "title": "Netflix Trailerz",
                 "category": "",
                 "image": "netflix-clone.PNG",
-                "url": "https://netflix-2-e8113.web.app/"
+                "url": "https://netflix-clone-react-app.web.app/?"
             },
             {
                 "title": "Spotify Clone",
@@ -212,7 +222,13 @@
                 "id": 3,
                 "text": "In my career as developer I have worked with some amazing people, Swaroop is one of them. He has all the good qualities of a great developer and a team player. He is a quick learner, reliable in a fire fighting situation. Have exceptional problem solving skills, an analytical mind and a go getter attitude. A great architect in the making. He would be an asset in any team he works with.",
                 "user": "Saurav Kundu"
+            },
+            {
+                "id": 3,
+                "text": "I have worked with Swaroop on same project. I have observed his passion to learn new thing and his dedication for the work. He can think out of box. He has shown his excellence through technical and communication skills which has helped exceeding expectation from him at the time of project need. He is also an organization champ on technical area. ",
+                "user": "Atanu Biswas"
             }
+
         ]
     },
     "blogger": {
