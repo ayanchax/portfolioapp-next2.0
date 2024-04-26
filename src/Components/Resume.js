@@ -3,8 +3,7 @@ import "./Resume.css";
 
 const Resume = ({ data }) => {
   if (data) {
-    //var skillmessage = data.skillmessage;
-
+   
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -23,7 +22,7 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    var work = data.work.map(function (work) {
+    var work = data.work.filter((w)=>w.show).map(function (work) {
       return (
         <div key={work.company}>
           <div className="work-company">
@@ -114,18 +113,9 @@ const Resume = ({ data }) => {
         </div>
 
         <div className="tech-stack" >
-          {/* <p>{skillmessage}</p> */}
-          {techStack}
-          {/* <div className="bars">
-            <ul className="skills">{skills}</ul>
-          </div> */}
+           {techStack}
         </div>
-
-
       </div>
-
-
-
     </section>
   );
 };
