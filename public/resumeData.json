@@ -24,7 +24,9 @@
         },
         "website": "https://github.com/ayanchax?tab=repositories",
         "resumedownload": "blob/pdf/cv/2024/SWAROOP CHAKRABORTY-EN-2024.pdf",
-        "social": [{
+        "projectsDownload": "blob/pdf/projects/Swaroop Chakraborty - All Projects.pdf",
+        "social": [
+            {
                 "name": "blogger",
                 "url": "https://www.blogger.com/profile/04388851755120028497",
                 "className": "fa fa-rss"
@@ -50,14 +52,17 @@
                 "className": "fa fa-github"
             }
         ],
-        "metaURL": [{
-            "feluda": "https://en.wikipedia.org/wiki/Feluda",
-            "satyajitRay": "https://en.wikipedia.org/wiki/Satyajit_Ray"
-        }]
+        "metaURL": [
+            {
+                "feluda": "https://en.wikipedia.org/wiki/Feluda",
+                "satyajitRay": "https://en.wikipedia.org/wiki/Satyajit_Ray"
+            }
+        ]
     },
     "resume": {
         "skillmessage": "Check out my skill sets",
-        "education": [{
+        "education": [
+            {
                 "school": "Gauhati University - INDIA",
                 "degree": "Master of Computer Applications(MCA)",
                 "graduated": "April 2013",
@@ -74,12 +79,13 @@
                 "shortTitle": "Visit AU"
             }
         ],
-        "work": [{
+        "work": [
+            {
                 "company": "Muddle | Independent Software Consulting",
                 "shortName": "Muddle",
                 "title": "Founder and CEO",
                 "otherHeldRoles": null,
-                "show":false,
+                "show": false,
                 "years": "Feb 2017 - Present",
                 "url": "https://www.facebook.com/muddleTK",
                 "logo": "/work/muddle-logo.png",
@@ -90,7 +96,7 @@
                 "shortName": "BAX",
                 "title": "Senior Consultant",
                 "otherHeldRoles": null,
-                "show":true,
+                "show": true,
                 "years": "April 2024 - Present",
                 "url": "https://www.baxter.com/",
                 "logo": "/work/baxter.svg",
@@ -101,7 +107,7 @@
                 "shortName": "TCS",
                 "title": "Assistant Consultant",
                 "otherHeldRoles": null,
-                "show":true,
+                "show": true,
                 "years": "Sep 2021 - April 2024",
                 "url": "https://www.tcs.com/",
                 "logo": "/work/tcs.svg",
@@ -111,7 +117,7 @@
                 "company": "Cerner Corporation",
                 "shortName": "Cerner",
                 "title": "Software Engineer II",
-                "show":true,
+                "show": true,
                 "otherHeldRoles": "System Engineer | Technical Support Engineer | Sr. Technical Support Engineer | Test Analyst | Test Automation Engineer I | Software Engineer I",
                 "years": "Feb 2015 - Aug 2021",
                 "url": "https://www.cerner.com/",
@@ -122,7 +128,7 @@
                 "company": "Siemens AG",
                 "shortName": "Siemens",
                 "title": "System Engineer",
-                "show":true,
+                "show": true,
                 "otherHeldRoles": null,
                 "years": "Sep 2014 - Feb 2015",
                 "url": "https://www.siemens.com/global/en.html",
@@ -133,7 +139,7 @@
                 "company": "Zantrik Technologies",
                 "shortName": "Zantrik",
                 "title": "Jr Solutions Architect",
-                "show":true,
+                "show": true,
                 "otherHeldRoles": "Software Developer",
                 "years": "May 2013 - Sep 2014",
                 "url": "https://www.zantrik.in/",
@@ -144,7 +150,7 @@
                 "company": "AMTRON",
                 "shortName": "Amtron",
                 "title": "Summer Intern",
-                "show":true,
+                "show": true,
                 "otherHeldRoles": null,
                 "years": "Jan 2013 - Apr 2013",
                 "url": "http://amtron.in/",
@@ -152,7 +158,8 @@
                 "description": "Worked as a software project intern while pursuing final semester of Master's Degree. During the internship, built a intra-network social networking application meant to be used by the employees of the organisation."
             }
         ],
-        "technologyStack": [{
+        "technologyStack": [
+            {
                 "name": "Front-End",
                 "url": "/technology/frontend/FrontEnd.jpg"
             },
@@ -165,7 +172,8 @@
                 "url": "/technology/infrastructure/Infrastructure.png"
             }
         ],
-        "skills": [{
+        "skills": [
+            {
                 "name": "ReactJs",
                 "level": "100%"
             },
@@ -197,7 +205,6 @@
                 "image": "weather-app.png",
                 "url": "https://quick-weather-pwa-app.netlify.app/"
             },
-
             {
                 "title": "#सुनलो -Free Music App",
                 "category": "",
@@ -228,10 +235,12 @@
                 "image": "whatsapp-clone.PNG",
                 "url": "https://whatsapp-clone-1590c.web.app/"
             }
-        ]
+        ],
+        "projectsDownload": "blob/pdf/projects/Swaroop Chakraborty - All Projects.pdf"
     },
     "testimonials": {
-        "testimonials": [{
+        "testimonials": [
+            {
                 "id": 1,
                 "text": "Swaroop is a creative, intelligent and 'never say never' person. I worked with him in couple of projects and found him the most dependable engineer. He knows all the tricks and tips of Network, delivers high quality solutions faster than the expectation . I would love to work with him again in future.",
                 "user": "Swakhar Mukherjee"
@@ -251,11 +260,11 @@
                 "text": "I have worked with Swaroop on same project. I have observed his passion to learn new thing and his dedication for the work. He can think out of box. He has shown his excellence through technical and communication skills which has helped exceeding expectation from him at the time of project need. He is also an organization champ on technical area. ",
                 "user": "Atanu Biswas"
             }
-
         ]
     },
     "blogger": {
-        "blogs": [{
+        "blogs": [
+            {
                 "id": 1,
                 "name": "A year of March",
                 "meta": "…incessant buzz from neighbouring cubicles accompanied with intermittent incoming emails and meeting reminder notifications",

@@ -25,6 +25,7 @@ const Portfolio = ({ data }) => {
         </div>
       );
     });
+    var projectsDownload = data.projectsDownload;
   }
 
   return (
@@ -43,9 +44,20 @@ const Portfolio = ({ data }) => {
             <i className="fa fa-github"></i>
             &nbsp;&nbsp;
             <i className="fa fa-linkedin"></i>
-            &nbsp;To know more about my work and
-            projects, follow me on <a href={github}>Github</a> &amp; <a href={linkedIn}>LinkedIn</a>
+            &nbsp;To know more about my work and projects, follow me on{" "}
+            <a href={github}>Github</a> &amp; <a href={linkedIn}>LinkedIn</a>
           </p>
+          <div className="portfolio-download-projects">
+            <a
+              title="Download"
+              rel="noreferrer"
+              target="_blank"
+              href={projectsDownload}
+              className="button"
+            >
+              <i className="fa fa-download"></i>&nbsp;&nbsp; Download Projects
+            </a>
+          </div>
         </div>
       </div>
     </section>

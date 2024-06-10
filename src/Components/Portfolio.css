@@ -5,6 +5,12 @@
     background-color: #373233!important;
     text-align: center;
 }
+.portfolio-download-projects{
+    display: flex;
+    justify-content: center;
+    padding: 4px
+}
+
 
 .portfolio-footer a:hover {
     color: white;

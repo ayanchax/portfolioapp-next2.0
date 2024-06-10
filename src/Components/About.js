@@ -15,6 +15,7 @@ const About = ({ data }) => {
     var phone = data.phone;
     var email = data.email;
     var resumeDownload = data.resumedownload;
+
   }
 
   return (
@@ -43,6 +44,7 @@ const About = ({ data }) => {
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>
+
             </div>
           </div>
         </div>

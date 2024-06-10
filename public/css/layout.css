@@ -9,7 +9,7 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
+   d. career Section
    e. Portfolio Section
    f. Call To Action Section
    g. Testimonials Section
@@ -302,46 +302,46 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 
-/* d. Resume Section
+/* d. career Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#career {
     background: #fff;
     padding-top: 90px;
     padding-bottom: 72px;
     overflow: hidden;
 }
 
-#resume a,
-#resume a:visited {
+#career a,
+#career a:visited {
     color: #11ABB0;
 }
 
-#resume a:hover,
-#resume a:focus {
+#career a:hover,
+#career a:focus {
     color: #313131;
 }
 
-#resume h1 {
+#career h1 {
     font: 18px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-#resume h1 span {
+#career h1 span {
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
 }
 
-#resume h3 {
+#career h3 {
     font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col {
+#career .header-col {
     padding-top: 9px;
 }
 
-#resume .main-col {
+#career .main-col {
     padding-right: 10%;
 }
 
@@ -352,19 +352,19 @@ ul#nav li.current a {
     border-bottom: 1px solid #E8E8E8;
 }
 
-#resume .info {
+#career .info {
     font: 16px/24px 'librebaskerville-italic', serif;
     color: #6E7881;
     margin-bottom: 18px;
     margin-top: 9px;
 }
 
-#resume .info span {
+#career .info span {
     margin-right: 5px;
     margin-left: 5px;
 }
 
-#resume .date {
+#career .date {
     font: 15px/24px 'opensans-regular', sans-serif;
     margin-top: 6px;
 }

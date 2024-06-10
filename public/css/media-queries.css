@@ -60,12 +60,12 @@
     #about .download {
         width: 50%;
     }
-    /* Resume Section
+    /* career Section
    ------------------------------------------------------------------- */
-    #resume h1 {
+    #career h1 {
         font: 16px/24px 'opensans-bold', sans-serif;
     }
-    #resume .main-col {
+    #career .main-col {
         padding-right: 5%;
     }
     /* Testimonials Section
@@ -236,21 +236,21 @@
     #about .main-col {
         padding-right: 30px;
     }
-    /* Resume Section
+    /* career Section
    --------------------------------------------------------------------- */
-    #resume .header-col {
+    #career .header-col {
         padding-top: 0;
         margin-bottom: 48px;
         text-align: center;
     }
-    #resume h1 {
+    #career h1 {
         letter-spacing: 3px;
     }
-    #resume .main-col {
+    #career .main-col {
         padding-right: 30px;
     }
-    #resume h3,
-    #resume .info {
+    #career h3,
+    #career .info {
         text-align: center;
     }
     .bars {

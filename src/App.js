@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
-import Resume from "./Components/Resume";
+import Career from "./Components/Career";
 import Contact from "./Components/Contact";
 import Testimonials from "./Components/Testimonials";
 import Blogs from "./Components/Blogs";
@@ -28,7 +28,7 @@ const App = () => {
       <HelmetMetaData />
       <Header data={resumeData.main} />
       <About data={resumeData.main} />
-      <Resume data={resumeData.resume} />
+      <Career data={resumeData.resume} />
       <Portfolio data={resumeData.portfolio} />
       <Testimonials data={resumeData.testimonials} />
       <Blogs data={resumeData.blogger} />

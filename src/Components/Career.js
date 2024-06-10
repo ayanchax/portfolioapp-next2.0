@@ -1,9 +1,9 @@
 import React from "react";
-import "./Resume.css";
+import "./Career.css";
 
-const Resume = ({ data }) => {
+const Career = ({ data }) => {
   if (data) {
-   
+
     var education = data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -22,7 +22,7 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    var work = data.work.filter((w)=>w.show).map(function (work) {
+    var work = data.work.filter((w) => w.show).map(function (work) {
       return (
         <div key={work.company}>
           <div className="work-company">
@@ -80,7 +80,7 @@ const Resume = ({ data }) => {
   }
 
   return (
-    <section id="resume">
+    <section id="career">
       <div className="row education">
         <div className="three columns header-col">
           <h1>
@@ -113,11 +113,11 @@ const Resume = ({ data }) => {
         </div>
 
         <div className="tech-stack" >
-           {techStack}
+          {techStack}
         </div>
       </div>
     </section>
   );
 };
 
-export default Resume;
+export default Career;
