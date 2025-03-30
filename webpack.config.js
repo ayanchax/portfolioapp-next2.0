@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin')
@@ -55,18 +54,6 @@ module.exports = {
   optimization: {
     minimize: true,
     minimizer: [
-        new ImageMinimizerPlugin({
-            minimizer: {
-              implementation: ImageMinimizerPlugin.imageminMinify,
-              options: {
-                plugins: [
-                  ['imagemin-mozjpeg', { quality: 75 }], // Optimize JPEGs
-                  ['imagemin-pngquant', { quality: [0.6, 0.8] }], // Optimize PNGs
-                ],
-              },
-            },
-           
-          }),
       new TerserPlugin(),
       new CssMinimizerPlugin(),
     ],
